@@ -19,6 +19,8 @@ main() {
   export GITHUB_TOKEN="$github_token"
   export GITHUB_API_URL="$github_api_url"
 
+  echo "I have $message_if_xl as message_if_xl input"
+
   labeler::label \
     "$xs_label" \
     "$xs_max_size" \
